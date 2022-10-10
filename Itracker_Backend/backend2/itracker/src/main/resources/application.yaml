@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 674799611346-a182cc27fhosmmdb70oas2ndlpcp4476.apps.googleusercontent.com
+            clientSecret: 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
+            redirectUri: http://localhost:4200/callback
+            scope:
+            - email
+            - profile
+
